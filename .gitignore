@@ -396,3 +396,21 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+backup-appsettings-*.json
+
+# Deployment packages
+*.zip
+
+# Azure logs
+LogFiles/
+
+# Temporary directories
+publish*/
+deployments/
+
+# Configuration backups
+backup-*.json
+*-backup.json
+
+# VS Code temp files
+.vscode/temp*
